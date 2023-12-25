@@ -31,9 +31,6 @@
                     console.log(data);
                     if (data.success) {
                         alert(data.message);
-                        document.getElementById('product_id').value = '';
-                        document.getElementById('user_id').value = '';
-                        document.getElementById('review_text').value = '';
                     } else {
                         alert(data.message);
                     }
